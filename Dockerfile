@@ -1,4 +1,4 @@
-FROM php:7.3.2-fpm
+FROM php:8.3.9RC1-fpm-alpine3.20
 
 RUN apk update && apk add -y \
         libzip-dev \
